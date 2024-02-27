@@ -1,0 +1,15 @@
+# Unity files
+*.asset merge=unityyamlmerge eol=lf
+*.meta merge=unityyamlmerge eol=lf
+*.unity merge=unityyamlmerge eol=lf
+
+# Unity-generated files
+Library/ metadata
+Temp/ metadata
+Obj/ metadata
+Build/ metadata
+
+# Unity WebGL specific files
+*.data binary
+*.mem binary
+*.wasm binary
